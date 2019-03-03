@@ -1,6 +1,6 @@
 PROJ=sample
-SOURECES=sample.c
+SOURCES=sample.c
 
 sample: sample.c
-	cc -Ofast -o $(PROJ) $(SOURCES)
+	cc -Ofast -o $(PROJ) $(SOURCES) 
 
