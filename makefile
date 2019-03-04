@@ -1,7 +1,7 @@
 PROJ=sample
-SOURCES=sample.c
+SOURCES=sample.cpp
 HEADER=header.h
 
-sample: sample.c
+sample: $(SOURCES)
 	g++ -Ofast -o $(PROJ) $(SOURCES) --include $(HEADER)
 
