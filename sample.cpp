@@ -3,8 +3,7 @@
 // Copyright 2019 ardeshirv@protonmail.com, Licensed Under GPLv3+
 
 int main() {
-    cout << "sample - Sample C++ CLI Application, Version 1.0" << endl;
-    cout << "Copyright 2019 ardeshirv@protonmail.com, Licensed Under GPLv3+" << endl;
-    cout << "Hello Git!" << endl;
+    cout << "sample - Sample C++ CLI Application, Version 1.0\n"
+         << "Copyright 2019 ardeshirv@protonmail.com, Licensed Under GPLv3+\n"
+         << "Hello Git!" << endl;
 }
-
